@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <CheckBox
+       android:onClick="selectLanguage"
+       android:id="@+id/java"
+       android:text="Java"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+   </CheckBox>
+    <CheckBox
+        android:onClick="selectLanguage"
+        android:id="@+id/android"
+        android:text="Android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        android:onClick="selectLanguage"
+        android:id="@+id/php"
+        android:text="PHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/male"
+            android:text="Male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/female"
+            android:text="Female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/citySP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+</LinearLayout>
